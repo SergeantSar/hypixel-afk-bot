@@ -1,0 +1,5 @@
+node_modules
+config.json
+test.js
+src/discord/commands/EvalCommand.js
+src/discord/commands/BaseCommand.txt

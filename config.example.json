@@ -1,0 +1,15 @@
+{
+  "discord": {
+    "useDiscordBot": true, 
+    "token": "Your Discord Bot Token",
+    "guildId": "Main Server (Guild) ID",
+    "channelId": "Main Channel ID",
+    "ownerId": "Owner Discord ID"
+  },
+  "minecraft": {
+    "auth": "mojang/microsoft",
+    "username": "",
+    "password": "",
+    "islandToVisit": "Your Minecraft IGN"
+  }
+}

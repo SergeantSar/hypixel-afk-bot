@@ -1,0 +1,13 @@
+{
+  "name": "hypixel-afk-bot",
+  "version": "1.0.0",
+  "description": "thing",
+  "main": "./src/index.js",
+  "repository": "https://github.com/SergeantSar/hypixel-afk-bot.git",
+  "author": "SergeantSar#0947",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^13.3.0",
+    "mineflayer": "^3.11.2"
+  }
+}
