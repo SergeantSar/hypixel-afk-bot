@@ -1,3 +1,6 @@
+# DISCLAIMER
+There are currently some issues involving visiting yourself (was intended for another account to visit you) as well as only working with multiple profiles and not if you only have one. These will likely not get fixed until tomorrow due to me spending all of yesterday and today on this and needing to do other things.
+
 # Hypixel Afk Bot
 
 This program will will connect to [Hypixel](https://hypixel.net) and afk on a SkyBlock island that you select. There is also an optional [Discord](https://discord.com) bot that can be used to receive status updates about the Minecraft bot as well as perform various commands.
