@@ -11,7 +11,16 @@ class WindowHandler {
 
   onWindow(window) {
     if (window.title === `{"translate":"Visit ${this.minecraft.app.config.minecraft.islandToVisit}"}`) {
-      setTimeout(() => this.bot.clickWindow(11, 0, 0), 1000);
+      
+      let slot;
+
+      for (const item of window.slots) {
+        if (item?.nbt.value.display.value.Name.value === '§aVisit player island') {
+          slot = item.slot;
+        }
+      }
+
+      setTimeout(() => this.bot.clickWindow(slot, 0, 0), 2000);
     }
   }
 }
