@@ -1,6 +1,3 @@
-# DISCLAIMER
-There are currently some issues involving visiting yourself (was intended for another account to visit you) as well as only working with multiple profiles and not if you only have one. These will likely not get fixed until tomorrow due to me spending all of yesterday and today on this and needing to do other things.
-
 # Hypixel Afk Bot
 
 This program will will connect to [Hypixel](https://hypixel.net) and afk on a SkyBlock island that you select. There is also an optional [Discord](https://discord.com) bot that can be used to receive status updates about the Minecraft bot as well as perform various commands.
@@ -33,13 +30,17 @@ After they are installed, you can copy the configuration file by running:
 
 To read up on what to set the `config.json` values to, check below.
 
-Once that is done, you can run the bot by running the `start.bat` file.
+Once that is done, you can start the bot by running:
+
+    node .
 
 ### Configuration
 
 #### Minecraft
 
-If you're using a Mojang account, `auth` should be set to `mojang`. The `username` and `password` values should be filled out with your Mojang username and password for the Minecraft account you plan on using, your Minecraft username is most likely the email it was created with. If you're using a microsoft account, change `auth` to `microsoft`, `username` and `password` are not required and should be left blank as you will be directed to the [Microsoft Link page](https://www.microsoft.com/link).
+If you're using a Mojang account, `auth` should be set to `mojang`. The `username` and `password` values should be filled out with your Mojang username and password for the Minecraft account you plan on using, your Minecraft username is most likely the email it was created with. If you're using a microsoft account, change `auth` to `microsoft`, `username` to your microsoft account email, and `password` can be left blank. You will then need to go to the [Microsoft Link page](https://www.microsoft.com/link) to finish logging in.
+
+> Note: After quick testing with a friend, logging in with microsoft can be a bit buggy.
 
 #### Discord
 
