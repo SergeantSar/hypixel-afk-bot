@@ -76,7 +76,11 @@ class ChatHandler {
   }
 
   visitIsland() {
-    this.bot.chat(`/visit ${this.minecraft.app.config.minecraft.islandToVisit}`);
+    if (this.minecraft.app.config.minecraft.islandToVisit.toLowerCase() === this.bot.username.toLowerCase()) {
+      this.bot.chat('/is');
+    } else {
+      this.bot.chat(`/visit ${this.minecraft.app.config.minecraft.islandToVisit}`);
+    }
 
     console.log('Visited the island.');
     if (this.minecraft.app.config.discord.useDiscordBot) {
